@@ -1,0 +1,220 @@
+.wrapper{
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lato', Open Sans;
+}
+/* Font styles */
+.font--white{color: #fff;}
+
+/*===========================================================.Header styles====================================================================*/
+.header__wrapper{
+    position: relative;
+}
+.header__bg{
+    width: 100vw;
+    box-sizing: border-box;
+}
+.header__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 230px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.header__ico{
+    width: 3.5vw;
+}
+.header__logo{
+    margin-bottom: 8.5vh;
+}
+.header__title{
+    font-size: 2.7em;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    width: 32vw;
+    margin-bottom: 3vh;
+}
+.header__subtitle{
+    text-transform: uppercase;
+    width: 31.5vw;
+    font-size: .75em;
+    letter-spacing: .06em;
+    line-height: 2em;
+}
+.scroll-ico{
+    width: 1.2vw;
+    position: fixed;
+    bottom: 2vw;
+}
+
+/*===========================================================.About styles====================================================================*/
+.about{
+    position: relative;
+    height: 69vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.about__border{
+    width: 47vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.about__title{
+    font-size: 1.65em;
+    letter-spacing: 0.2em;
+    position: absolute;
+    top: 15vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #3c3c3c;
+}
+.about__subtitle{
+    font-size: 0.8em;
+    letter-spacing: -0.005em;
+    line-height: 1.5em;
+    width: 28vw;
+    position: absolute;
+    top: 25vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.about__subtitle--narrow{
+    position: absolute;
+    width: 24vw;
+    top: 35.5vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*==========================================================.Services styles===================================================================*/
+.services{
+    position: relative;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.services__bg{
+    width: 100vw;
+    box-sizing: border-box;
+}
+.services__border{
+    width: 47vw;
+    position: absolute;
+    top: 1.5vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.services__title{
+    position: absolute;
+    top: 12.5vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.6em;
+    letter-spacing: 0.2em;
+}
+.services__subtitle{
+    font-size: 0.8em;
+    letter-spacing: -0.005em;
+    line-height: 1.65em;
+}
+.services__subtitle-box{
+    position: absolute;
+    top: 22vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 29vw;
+}
+
+/*==========================================================.Function styles===================================================================*/
+.function{
+    position: relative;
+    height: 156vh;
+    box-sizing: border-box;
+    margin-bottom: -10vh;
+}
+.function__border{
+    width: 47vw;
+    position: absolute;
+    top: -21vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.function__content{
+    margin: 0 auto;
+    width: 40vw;
+    margin-top: 10.5vh;
+    box-sizing: border-box;
+}
+.function__main-title{
+    font-size: 1.65em;
+    letter-spacing: 0.18em;
+}
+.function__section{
+    margin: 11.5vh auto;
+}
+.function__img{
+    width: 4.2vw;
+    margin-bottom: 3.5vh;
+}
+.function__img--margin{
+    margin-top: -1.3vh;
+}
+
+.function__title{
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    margin-bottom: 2.8vh;
+}
+.function__title--margin{
+    margin-bottom: 4vh;
+    letter-spacing: 0.21em;
+}
+.function__subtitle{
+    font-size: 0.7em;
+    letter-spacing: -0.008em;
+    line-height: 1.8em;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+/*==========================================================.nav styles========================================================================*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.nav__img{
+    width: 28.65vw;
+}
+.nav__img--wide{
+    width: 41.8vw;
+}
+.nav__container{
+    box-sizing: border-box;
+    margin: -1.2vh 0vw;
+}
