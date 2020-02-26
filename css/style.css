@@ -1,8 +1,9 @@
 .wrapper{
-    width: 100vw;
+    width: 98vw;
     margin: 0 auto;
     text-align: center;
     font-family: 'Lato', Open Sans;
+    position: relative;
 }
 /* Font styles */
 .font--white{color: #fff;}
@@ -12,7 +13,7 @@
     position: relative;
 }
 .header__bg{
-    width: 100vw;
+    width: 98vw;
     box-sizing: border-box;
 }
 .header__content{
@@ -20,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 230px;
+    top: 30.5vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -33,8 +34,9 @@
     margin-bottom: 8.5vh;
 }
 .header__title{
-    font-size: 2.7em;
-    letter-spacing: 0.17em;
+    font-size: 5.4vh;
+    letter-spacing: 1.2vh;
+    line-height: 7.5vh;
     text-transform: uppercase;
     width: 32vw;
     margin-bottom: 3vh;
@@ -42,25 +44,20 @@
 .header__subtitle{
     text-transform: uppercase;
     width: 31.5vw;
-    font-size: .75em;
-    letter-spacing: .06em;
-    line-height: 2em;
-}
-.scroll-ico{
-    width: 1.2vw;
-    position: fixed;
-    bottom: 2vw;
+    font-size: 1.6vh;
+    letter-spacing: 0.127vh;
+    line-height: 3.2vh;
 }
 
 /*===========================================================.About styles====================================================================*/
 .about{
     position: relative;
-    height: 69vh;
-    width: 100vw;
+    height: 68vh;
+    width: 98vw;
     box-sizing: border-box;
 }
 .about__border{
-    width: 47vw;
+    width: 46.2vw;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -69,10 +66,10 @@
     margin: auto;
 }
 .about__title{
-    font-size: 1.65em;
-    letter-spacing: 0.2em;
+    font-size: 3.65vh;
+    letter-spacing: 0.28vw;
     position: absolute;
-    top: 15vh;
+    top: 14.8vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -80,12 +77,12 @@
     color: #3c3c3c;
 }
 .about__subtitle{
-    font-size: 0.8em;
-    letter-spacing: -0.005em;
+    font-size: 1.8vh;
+    letter-spacing: -0.018vw;
     line-height: 1.5em;
-    width: 28vw;
+    width: 27.5vw;
     position: absolute;
-    top: 25vh;
+    top: 24.5vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -94,7 +91,7 @@
 .about__subtitle--narrow{
     position: absolute;
     width: 24vw;
-    top: 35.5vh;
+    top: 35vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -104,17 +101,17 @@
 /*==========================================================.Services styles===================================================================*/
 .services{
     position: relative;
-    width: 100vw;
+    width: 98vw;
     box-sizing: border-box;
 }
 .services__bg{
-    width: 100vw;
+    width: 98vw;
     box-sizing: border-box;
 }
 .services__border{
-    width: 47vw;
+    width: 46.2vw;
     position: absolute;
-    top: 1.5vh;
+    top: 2vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -122,17 +119,17 @@
 }
 .services__title{
     position: absolute;
-    top: 12.5vh;
+    top: 12.1vh;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    font-size: 1.6em;
-    letter-spacing: 0.2em;
+    font-size: 3.5vh;
+    letter-spacing: 0.34vw;
 }
 .services__subtitle{
-    font-size: 0.8em;
-    letter-spacing: -0.005em;
+    font-size: 1.7vh;
+    letter-spacing: 0.003vw;
     line-height: 1.65em;
 }
 .services__subtitle-box{
@@ -142,20 +139,20 @@
     left: 0;
     right: 0;
     margin: auto;
-    width: 29vw;
+    width: 28.6vw;
 }
 
 /*==========================================================.Function styles===================================================================*/
 .function{
     position: relative;
-    height: 156vh;
+    height: 154vh;
     box-sizing: border-box;
-    margin-bottom: -10vh;
+    margin-bottom: -11.5vh;
 }
 .function__border{
-    width: 47vw;
+    width: 46.2vw;
     position: absolute;
-    top: -21vh;
+    top: -22vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -164,37 +161,37 @@
 .function__content{
     margin: 0 auto;
     width: 40vw;
-    margin-top: 10.5vh;
+    margin-top: 10vh;
     box-sizing: border-box;
 }
 .function__main-title{
-    font-size: 1.65em;
-    letter-spacing: 0.18em;
+    font-size: 3.8vh;
+    letter-spacing: 0.25vw;
 }
 .function__section{
-    margin: 11.5vh auto;
+    margin: 10.8vh auto;
 }
 .function__img{
-    width: 4.2vw;
-    margin-bottom: 3.5vh;
+    width: 4.1vw;
+    margin-bottom: 3.6vh;
 }
 .function__img--margin{
     margin-top: -1.3vh;
 }
 
 .function__title{
-    font-size: 1em;
-    letter-spacing: 0.15em;
+    font-size: 2.2vh;
+    letter-spacing: 0.15vw;
     margin-bottom: 2.8vh;
 }
 .function__title--margin{
     margin-bottom: 4vh;
-    letter-spacing: 0.21em;
+    letter-spacing: 0.2vw;
 }
 .function__subtitle{
-    font-size: 0.7em;
-    letter-spacing: -0.008em;
-    line-height: 1.8em;
+    font-size: 1.5vh;
+    letter-spacing: -0.01vh;
+    line-height: 2.8vh;
     width: 30vw;
     margin: 0 auto;
 }
@@ -203,18 +200,116 @@
 .nav{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 98vw;
     flex-wrap: wrap;
     justify-content: space-between;
     box-sizing: border-box;
 }
 .nav__img{
-    width: 28.65vw;
+    width: 28vw;
 }
 .nav__img--wide{
-    width: 41.8vw;
+    width: 40.841vw;
 }
 .nav__container{
     box-sizing: border-box;
-    margin: -1.2vh 0vw;
+    margin: 0.15vh 0vw;
+    position: relative;
 }
+.nav__title{
+    position: absolute;
+    bottom: 4.2vh;
+    left: 2vw;
+    text-transform: uppercase;
+    font-size: 3.8vh;
+    letter-spacing: 0.28vw;
+    z-index: 500000;
+}
+
+/*==========================================================.footer styles=====================================================================*/
+.footer{
+    position: relative;
+    box-sizing: border-box;
+    height: 40vh;
+}
+.footer__border{
+    width: 46.2vw;
+    position: absolute;
+    top: 20vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.footer__title{
+    text-transform: uppercase;
+    font-size: 3.2vh;
+    position: absolute;
+    top: 13vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    letter-spacing: 0.25vw;
+}
+.footer__subtitle{
+    position: absolute;
+    top: 22vh;
+    width: 30vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.8vh;
+    line-height: 2.8vh;
+    letter-spacing: -0.0156vw;
+}
+.footer__button{
+    position: absolute;
+    background: #3c3c3c;
+    width: 20.3vw;
+    height: 6.5vh;
+    top: 35.5vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.15vw;
+    font-size: 1.7vh;
+    border: none;
+}
+.footer__logo{
+    position: absolute;
+    bottom: -17vh;
+    left: 40.5vw;
+    width: 1.9vw;
+}
+
+.footer__ar{
+    position: absolute;
+    bottom: -7.6vw;
+    left: 44.2vw;
+    font-size: 1.5vh;
+}
+/*======================================================================Finish================================================================*/
+
+.scroll-ico{
+    width: 1.2vw;
+    position: fixed;
+    bottom: 11.5vh;
+    left: 48.85vw;
+    z-index: 2;
+    color: rgba(165, 52, 52, 0.562);
+}
+.footer__button:hover{
+    background: #6b6767;
+}
+.nav__container:hover .nav__img{
+    filter: brightness(60%);
+}
+.function__img:hover{
+    fill: rgb(10, 67, 151);
+}
+*{transition: all .2s ease-in;}
