@@ -109,13 +109,13 @@
     box-sizing: border-box;
 }
 .services__border{
-    width: 46.2vw;
     position: absolute;
     top: 2vh;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin:auto;
+    width: 46.2vw;
 }
 .services__title{
     position: absolute;
@@ -130,7 +130,9 @@
 .services__subtitle{
     font-size: 1.7vh;
     letter-spacing: 0.003vw;
-    line-height: 1.65em;
+    line-height: 2.5vh;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .services__subtitle-box{
     position: absolute;
@@ -140,6 +142,7 @@
     right: 0;
     margin: auto;
     width: 28.6vw;
+    padding: 0;
 }
 
 /*==========================================================.Function styles===================================================================*/
